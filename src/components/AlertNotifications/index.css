@@ -1,0 +1,142 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .main-section {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+
+.main-heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+.message-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .message-container {
+    margin-top: 0px;
+  }
+}
+
+.success-head {
+  font-family: 'Roboto';
+  color: #2dca73;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .success-head {
+    font-size: 24px;
+  }
+}
+
+.error-head {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .error-head {
+    font-size: 24px;
+  }
+}
+
+.warning-head {
+  font-family: 'Roboto';
+  color: #ffb800;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .warning-head {
+    font-size: 24px;
+  }
+}
+
+.info-head {
+  font-family: 'Roboto';
+  color: #0f81e0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .info-head {
+    font-size: 24px;
+  }
+}
+
+.message-text {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .message-text {
+    font-size: 20px;
+  }
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
